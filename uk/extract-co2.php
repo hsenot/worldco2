@@ -21,7 +21,7 @@
 	$arr['co2_intensity']=(string) ($str_co2/1000);
 
 	// Persistence  of the result in a JSON file
-	file_put_contents(dirname(__FILE__)."/current_co2.json",json_encode($arr));
+	file_put_contents(dirname(__FILE__)."/co2.json",json_encode($arr));
 
 	if ($output == "json")
 	{
