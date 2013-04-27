@@ -1,0 +1,6 @@
+#!/bin/bash
+
+/usr/bin/php /usr/share/apache2/worldco2/fr/extract-co2.php
+/usr/bin/php /usr/share/apache2/worldco2/uk/extract-co2.php
+/usr/bin/php /usr/share/apache2/worldco2/ie/extract-co2.php
+
