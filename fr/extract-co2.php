@@ -38,14 +38,14 @@
 		{
 			$i=-1;
 			foreach ($node->valeur as $nv){
-                                //print_r($nv);
+                                // value is in g/kWh, dividing by 1000 to get in kg/MWh
                                 $val_arr=(string) ($nv/1000);
 				$i++;
                         }
 			$updatePeriod=$i;
 		}
 		//print_r($val_arr);
-		$arr['co2_factor']=$val_arr;
+		$arr['co2_intensity']=$val_arr;
 	}
 	
 	// Adding the total
