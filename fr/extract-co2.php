@@ -4,7 +4,7 @@
 	$output = isset($_REQUEST['output']) ? $_REQUEST['output'] : 'json';
 
 	//require_once 'reader.php';
-	date_default_timezone_set('UTC');
+	date_default_timezone_set('Europe/Paris');
 
 	$dat = date("d/m/Y");
 	$dat2 = date("Y-m-d");
