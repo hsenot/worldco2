@@ -1,4 +1,0 @@
-#!/bin/bash
-
-/usr/bin/php /usr/share/apache2/worldco2/atmospheric/extract-co2.php
-
