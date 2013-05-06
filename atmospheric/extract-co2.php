@@ -18,7 +18,7 @@
 //	echo $htmlStr;
 
 	// Scraping the value (3 digits assumed) in front of the first occurrence of gCO2/kWh
-	$str_co2=substr($htmlStr,strpos($htmlStr,"Current reading:")+17,6);
+	$str_co2=substr($htmlStr,strpos($htmlStr,"reading:")+9,6);
 	$arr['co2_ppm']=(string) ($str_co2);
 
 	// Persistence  of the result in a JSON file
